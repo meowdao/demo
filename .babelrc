@@ -1,0 +1,42 @@
+{
+  "plugins": [
+    "lodash",
+    [
+      "@babel/proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/proposal-class-properties",
+    "@babel/proposal-function-bind",
+    "@babel/proposal-object-rest-spread",
+    [
+      "transform-require-ignore",
+      {
+        "extensions": [
+          ".less",
+          ".sass"
+        ]
+      }
+    ]
+  ],
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "espower",
+        "istanbul"
+      ]
+    }
+  }
+}

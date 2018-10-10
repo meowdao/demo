@@ -1,0 +1,15 @@
+{
+  "components": {
+    "switchLanguage": "Изменить язык",
+    "language": {
+      "en": "Английский",
+      "ru": "Русский"
+    }
+  },
+  "errors": {
+    "page-not-found": "Страница не найдена"
+  },
+  "text": {
+    "main-page": "Главная страница"
+  }
+}

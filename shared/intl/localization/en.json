@@ -1,0 +1,28 @@
+{
+  "components": {
+    "switchLanguage": "Switch Language",
+    "language": {
+      "en": "English",
+      "ru": "Russian"
+    }
+  },
+  "buttons": {
+    "login": "Login"
+  },
+  "fields": {
+    "email": {
+      "label": "Email",
+      "not-found": "Email not found"
+    },
+    "password": {
+      "label": "Password",
+      "invalid": "Password is invalid"
+    }
+  },
+  "errors": {
+    "page-not-found": "Page Not Found"
+  },
+  "text": {
+    "main-page": "Main page"
+  }
+}

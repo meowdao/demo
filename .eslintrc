@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false
+ },
+
+  "extends": [
+    "plugin:react/recommended"
+  ],
+
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+ },
+
+  "plugins": [
+    "react"
+  ],
+
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "web3": true,
+    "window": false
+ }
+}
